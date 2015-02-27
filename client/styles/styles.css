@@ -1,0 +1,122 @@
+body {
+    background: #eee;
+    padding: 0 25px;
+    font-family: arial, sans-serif;
+}
+
+#main {
+    width: 500px;
+    margin: auto;
+    text-align: left;
+    background: white;
+    padding: 50px 60px;
+    border: solid #ddd;
+    border-width: 0 1px 1px 1px;
+}
+
+#main h1 {
+    margin-top: 0;
+    font-size: 35px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+#main h1 span {
+    font-style:italic;
+}
+
+#main ul {
+    padding-left: 20px;
+}
+
+#main .error {
+    border: 1px solid red;
+    background: #FDEFF0;
+    padding: 20px;
+}
+
+#main .success {
+    margin-top: 25px;
+}
+
+#main .success code {
+    font-size: 12px;
+    color: green;
+    line-height: 13px;
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+form {
+    padding: 20px;
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+form input[type=text] {
+    margin-right: 10px;
+    width: 70%;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.chat {
+    padding: 5px;
+    margin-bottom: 5px;
+    background-color: #eee;
+}
+
+
+.messages {
+    background-color: #fff;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.message {
+    padding: 10px 15px;
+    margin: 5px 0;
+    background-color: #ddd;
+}
+
+.message:hover {
+    padding: 10px 15px;
+    margin: 5px 0;
+    background-color: #fff;
+}
+
+/*.spinner {*/
+    /*float: right;*/
+    /*height: 46px;*/
+    /*margin-bottom: 5px;*/
+/*}*/
+
+.spinner img {
+    padding: 10px;
+}
+
+.user {
+    font-weight: bold;
+    color: #26ADE4;
+}
+
+.msgText {
+    margin: 3px 5px;
+}
+
+.time{
+    margin-left: 20px;
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+.roomButton {
+    padding: 5px;
+}
+
+.friend{
+    font-weight: bold;
+}
