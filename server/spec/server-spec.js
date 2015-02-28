@@ -59,7 +59,7 @@ describe("Persistent Node Chat Server", function() {
 
           expect(results[0].text).to.equal("In mercy's name, three days is all I need.");
 
-          done();
+          setTimeout(done, 1000);
         });
       });
     });
@@ -82,7 +82,7 @@ describe("Persistent Node Chat Server", function() {
         var messageLog = JSON.parse(body);
         expect(messageLog[0].text).to.equal("Men like you can never change!");
         expect(messageLog[0].roomname).to.equal("main");
-        done();
+        setTimeout(done, 1000);
       });
     });
   });

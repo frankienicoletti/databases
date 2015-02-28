@@ -30,3 +30,6 @@ if (!module.parent) {
   console.log("Listening on", app.get("port"));
 }
 
+
+db.addUsername('Add username is working?');
+
